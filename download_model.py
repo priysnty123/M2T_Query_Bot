@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from langchain_huggingface import HuggingFaceBgeEmbeddings
+from langchain_community.embeddings import HuggingFaceBgeEmbeddings # <--- RIGHT
 
 # Load environment variables (like EMBEDDING_MODEL_NAME)
 load_dotenv()
