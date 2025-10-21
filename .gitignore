@@ -7,3 +7,6 @@ venv/
 # IDE files
 .vscode/
 .idea/
+
+# Ignore user-uploaded data
+upload_pdfs/
